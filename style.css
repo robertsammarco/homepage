@@ -1,3 +1,35 @@
 #grad {
-    background-image: linear-gradient(#5D4157, #A8CABA);
+    background-image: linear-gradient(270deg,#5D4157, #A8CABA);
   }
+
+.body {
+    font-family: Garamond, serif;
+}
+
+.body-content {
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.header {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+  
